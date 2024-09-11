@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Declaração do tipo de documento e idioma da página -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define o charset como UTF-8, que suporta caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a página para ser responsiva, ajustando o layout conforme o tamanho da tela -->
+    <link rel="stylesheet" href="style.css"> <!-- Vincula a folha de estilo externa (CSS) -->
+    <title>Valorant</title> <!-- Título da página que aparece na aba do navegador -->
+</head>
+
+<body>
+
+    <header>
+        <h1>Valorant e seus Sentinelas</h1> <!-- Título principal da página -->
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome de um operador" id="campo-pesquisa"> <!-- Campo de entrada de texto com um placeholder descritivo -->
+            <button onclick="pesquisar()">Pesquisar</button> <!-- Botão de pesquisa que chama a função 'pesquisar()' definida no arquivo JavaScript -->
+        </section>
+
+        <!-- Seção onde os resultados da pesquisa serão exibidos -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa"></section> <!-- Div que receberá os resultados gerados pela função JavaScript -->
+    </main>
+
+    <footer>
+        <p>2024 - Valorant e seus Sentinelas. Todos os direitos reservados</p> <!-- Texto de direitos autorais -->
+        <p>Entre em contato pelo email: kauanferreirakk@gmail.com</p> <!-- Informação de contato -->
+    </footer>
+
+    <!-- Scripts JavaScript para funcionalidades -->
+    <script src="dados.js"></script> <!-- Arquivo que contém os dados dos sentinelas (ex: informações de personagens) -->
+    <script src="app.js"></script> <!-- Arquivo que contém a lógica do site, como a função de pesquisa -->
+</body>
+
+</html>

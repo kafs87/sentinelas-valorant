@@ -1,0 +1,184 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    background-image: url(https://w.wallhaven.cc/full/lm/wallhaven-lm131y.jpg); /* Imagem de fundo */
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* A imagem de fundo cobre toda a tela */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Define a altura como 100% da tela */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-shadow: 2px 2px 6px rgb(173, 216, 230); /* Adiciona sombra ao texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Aumenta o espaçamento entre letras */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Adiciona espaço abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Define a largura dos inputs */
+    border: none; /* Remove a borda */
+    padding: 1rem; /* Adiciona espaçamento interno */
+    border-radius: 1.5rem; /* Arredonda os cantos */
+    margin-bottom: 1rem; /* Adiciona espaço abaixo dos inputs */
+    color: #000000; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 1.5rem; /* Arredonda os cantos */
+    background-color: #a200ff; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Define o cursor como uma mãozinha */
+}
+
+/* Adiciona efeito hover ao botão */
+section button:hover {
+    background-color: purple; /* Cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(195, 0, 255, 0.7); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura da caixa de resultados */
+    height: 46vh; /* Altura da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical */
+    margin-top: 1rem; /* Espaçamento acima da caixa */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Arredonda os cantos */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background-color: rgba(red, green, blue, alpha); /* Cor de fundo translúcida */
+    backdrop-filter: blur(10px); /* Adiciona um efeito de desfoque */
+    border-radius: 0.6rem; /* Arredonda os cantos */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo do item */
+    box-shadow: 0 4px 8px rgba(195, 0, 255, 0.2); /* Adiciona uma sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    text-shadow: 2px 2px 6px #ff00ff; /* Sombra do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-shadow: 2px 2px 6px #6f00ff; /* Sombra do texto */
+}
+
+/* Estiliza os links ao passar o mouse */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    text-shadow: 2px 2px 6px #6f00ff; /* Sombra do texto */
+    color: #ffffff; /* Cor do texto */
+    margin: 0.5rem 0; /* Espaçamento vertical */
+}
+
+.nada-encontrado {
+    color: rgb(255, 255, 255); /* Cor do texto */
+    font-size: 25px; /* Tamanho da fonte */
+    text-shadow: 2px 2px 6px #6f00ff; /* Sombra do texto */
+}
+/* Estiliza o rodapé da página */
+footer {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte */
+    background-color: rgba(red, green, blue, 0.7); /* Cor de fundo translúcida */
+    color: rgb(255, 255, 255); /* Cor do texto */
+    text-shadow: 2px 2px 6px rgb(173, 216, 230); /* Sombra do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Remove o padding */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Fixa o rodapé ao fundo */
+    font-size: 13px; /* Tamanho da fonte */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Reduz o tamanho da fonte */
+        letter-spacing: 0.2rem; /* Reduz o espaçamento entre letras */
+    }
+    
+    section input {
+        width: 25rem; /* Reduz a largura dos inputs */
+        padding: 0.8rem; /* Reduz o espaçamento interno */
+    }
+    
+    .resultados-pesquisa {
+        width: 40rem; /* Reduz a largura da caixa de resultados */
+        height: 40vh; /* Reduz a altura da caixa */
+    }
+    
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Reduz o tamanho dos títulos */
+    }
+    
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+    
+    h1 {
+        font-size: 1.8rem; /* Reduz ainda mais o tamanho da fonte */
+        letter-spacing: 0.1rem; /* Reduz ainda mais o espaçamento entre letras */
+    }
+    
+    section input {
+        width: 17rem; /* Largura dos inputs em telas menores */
+    }
+    
+    section button {
+        padding: 0.6rem 1rem; /* Ajusta o padding dos botões */
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte dos botões */
+    }
+    
+    .resultados-pesquisa {
+        width: 90%; /* Define a largura como 90% da tela */
+        height: 50vh; /* Define a altura da caixa de resultados */
+    }
+    
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Reduz o tamanho dos títulos */
+    }
+    
+    footer {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte no rodapé */
+    }
+    
+}
