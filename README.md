@@ -11,15 +11,13 @@ Bem-vindo ao **Valorant e seus Sentinelas**! Esta é uma aplicação web simples
 
 ## 🚀 Como rodar o projeto
 
-1. Clone o repositório:
+Basta apenas acessar o seguinte site:
 
    ```bash
-   git clone https://github.com/seu-usuario/valorant-sentinelas.git
+ https://sentinelas-valorant.vercel.app/
+
    ```
-   
-2. Abra o arquivo `index.html` no navegador.
-   
-3. Comece a explorar os Sentinelas de Valorant!
+   E começar a explorar os Sentinelas de Valorant!
 
 ## 💻 Tecnologias Utilizadas
 
