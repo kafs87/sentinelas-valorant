@@ -13,10 +13,8 @@ Bem-vindo ao **Valorant e seus Sentinelas**! Esta é uma aplicação web simples
 
 Basta apenas acessar o seguinte site:
 
-   ```bash
  https://sentinelas-valorant.vercel.app/
 
-   ```
    E começar a explorar os Sentinelas de Valorant!
 
 ## 💻 Tecnologias Utilizadas
